@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Virtual Drum Kit</h1>
+    <h2>
+      Jam to these drumless songs below by pressing on the asdf keys on your
+      keyboard
+    </h2>
+    <div class="backing-tracks">
+      <audio controls class="backing-track1">
+        <source src="Nirvana - Come As You Are (Drumless).mp3" />
+      </audio>
+      <p class="track-name1">Come As Your Are - Nirvana</p>
+      <audio controls class="backing-track2">
+        <source
+          src="Pink Floyd - Another Brick In The Wall (Part 2) (Drumless).mp3"
+        />
+      </audio>
+      <p class="track-name2">Another Brick in the Wall (Part 2) - Pink Floyd</p>
+    </div>
+
+    <div class="keys">
+      <div data-key="65" class="key" id="clap-key">
+        <kbd>A</kbd>
+        <span class="sound">Clap</span>
+      </div>
+      <div data-key="83" class="key" id="openhat-key">
+        <kbd>S</kbd>
+        <span class="sound">Open Hat</span>
+      </div>
+      <div data-key="68" class="key" id="hihat-key">
+        <kbd>D</kbd>
+        <span class="sound">Hi-hat</span>
+      </div>
+      <div data-key="70" class="key" id="snare-key">
+        <kbd>F</kbd>
+        <span class="sound">Snare</span>
+      </div>
+      <div data-key="72" class="key" id="kick-key">
+        <kbd>H</kbd>
+        <span class="sound">Kick</span>
+      </div>
+      <div data-key="71" class="key" id="tom-key">
+        <kbd>G</kbd>
+        <span class="sound">Tom</span>
+      </div>
+      <div data-key="74" class="key" id="boom-key">
+        <kbd>J</kbd>
+        <span class="sound">Boom</span>
+      </div>
+      <div data-key="75" class="key" id="ride-key">
+        <kbd>K</kbd>
+        <span class="sound">Ride</span>
+      </div>
+      <div data-key="76" class="key" id="tink-key">
+        <kbd>L</kbd>
+        <span class="sound">Tink</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="clap.wav"></audio>
+    <audio data-key="83" src="openhat.wav"></audio>
+    <audio data-key="68" src="hihat.wav"></audio>
+    <audio data-key="70" src="snare.wav"></audio>
+    <audio data-key="71" src="tom.wav"></audio>
+    <audio data-key="72" src="kick.wav"></audio>
+    <audio data-key="74" src="boom.wav"></audio>
+    <audio data-key="75" src="ride.wav"></audio>
+    <audio data-key="76" src="tink.wav"></audio>
+  </body>
+</html>

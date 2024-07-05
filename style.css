@@ -1,0 +1,231 @@
+html {
+  background: url(drum-kit.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 25pt;
+  text-align: center;
+  margin-top: 1%;
+  color: black;
+}
+
+.backing-tracks {
+  display: flex;
+  justify-content: center;
+}
+
+.track-name1 {
+  color: black;
+  font-weight: 900;
+  font-size: 16pt;
+  margin: 0.5rem 1.5rem;
+}
+
+.track-name2 {
+  color: black;
+  font-weight: 900;
+  font-size: 16pt;
+  margin: 0.5rem 1.5rem;
+}
+
+.keys {
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+}
+
+.key {
+  position: absolute;
+  border: 0.25rem solid black;
+  box-shadow: 0 0 2rem blue;
+  margin: 1rem;
+  font-size: 20px;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+  width: 112px;
+}
+
+#clap-key {
+  border-radius: 50%;
+  right: 80rem;
+  bottom: 20rem;
+  background-image: url(clap.png);
+  background-size: contain;
+}
+
+#openhat-key {
+  border-radius: 50%;
+  right: 72rem;
+  top: 12rem;
+  background-image: url(hi-hat-open.jpg);
+  background-size: contain;
+}
+
+#hihat-key {
+  border-radius: 50%;
+  right: 60rem;
+  top: 12rem;
+  background-image: url(hi-hat-closed.jpg);
+  background-size: contain;
+}
+
+#snare-key {
+  border-radius: 50%;
+  right: 42rem;
+  top: 24rem;
+  background-image: url(snare-drum.jpg);
+  background-size: contain;
+}
+
+#tom-key {
+  border-radius: 50%;
+  right: 11.5rem;
+  bottom: 2rem;
+  background-image: url(high-tom.jpg);
+  background-size: contain;
+}
+
+#kick-key {
+  border-radius: 50%;
+  right: 11rem;
+  top: 43rem;
+  background-image: url(bass-drum.jpg);
+  background-size: contain;
+}
+
+#boom-key {
+  border-radius: 50%;
+  left: 38rem;
+  top: 30rem;
+  background-image: url(floor-tom.jpg);
+  background-size: contain;
+}
+
+#ride-key {
+  border-radius: 50%;
+  left: 53rem;
+  bottom: 16rem;
+  background-image: url(ride-cymbal.jpg);
+  background-size: contain;
+}
+
+#tink-key {
+  border-radius: 50%;
+  left: 80rem;
+  bottom: 20rem;
+  background-image: url(triangle.jpg);
+  background-size: contain;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: rgb(9, 255, 0);
+}
+
+.playing.key {
+  box-shadow: 0 0 2rem yellow;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+@media only screen and (max-width: 1925px) {
+  h1 {
+    margin: 0%;
+    font-size: 30pt;
+  }
+
+  h2 {
+    font-size: 20pt;
+  }
+
+  .backing-tracks {
+    display: flex;
+  }
+
+  .track-name1 {
+    font-size: 14pt;
+  }
+
+  .track-name2 {
+    font-size: 14pt;
+  }
+
+  .key {
+    border: 0.25rem solid black;
+    padding: 0.5rem 0rem;
+  }
+
+  #clap-key {
+    right: 60rem;
+  }
+
+  #openhat-key {
+    right: 57rem;
+    top: 10rem;
+  }
+
+  #hihat-key {
+    right: 45rem;
+    top: 10rem;
+  }
+
+  #snare-key {
+    right: 34rem;
+    top: 19rem;
+  }
+
+  #tom-key {
+    right: 11rem;
+    bottom: 6.5rem;
+  }
+
+  #kick-key {
+    right: 11rem;
+    top: 33rem;
+  }
+
+  #boom-key {
+    left: 30rem;
+    top: 28rem;
+  }
+
+  #ride-key {
+    left: 42rem;
+    bottom: 16rem;
+  }
+
+  #tink-key {
+    left: 60rem;
+    bottom: 20rem;
+  }
+
+  .playing {
+    transform: scale(1.1);
+    border-color: rgb(9, 255, 0);
+  }
+
+  .playing.key {
+    box-shadow: 0 0 2rem yellow;
+  }
+}
