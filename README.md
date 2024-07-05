@@ -6,8 +6,8 @@ Since I started working on this project, I've made a lot of special modification
 
 ### This is what the webpage looks like when a key is not pressed:
 
-![Drum Kit1](drum-kit1.png)
+![Drum Kit1](/images/drum-kit1.png)
 
 ### This is what the webpage looks like when a key is pressed:
 
-![Drum Kit2](drum-kit2.png)
+![Drum Kit2](/images/drum-kit2.png)
