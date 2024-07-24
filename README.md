@@ -1,13 +1,23 @@
-For this first "JavaScript30" project, I have built a drum kit using HTML, CSS, and JS. If you would like to build this project, you can create an account at https://courses.wesbos.com, look for "JavaScript30", and follow along with the video tutorial.
+## Drum Kit Project: Building a Virtual Instrument
+This project replicates a drum kit using HTML, CSS, and JavaScript, following the "JavaScript30" course by Wes Bos.
 
-This project creates a basic JavaScript drum kit that lets the user hit a specific asdf key. When an asdf key is pressed, the user will hear a sound from the "sounds" folder that resemble the drum kit, will see the border color change from black to a light shade of green, and the box shadow color will change from blue to yellow.
+### To build it yourself:
+1. Create an account at https://wesbos.com/courses.
+2. Search for "JavaScript30" and find the drum kit project.
+3. Follow along with the video tutorial.
 
-Since I started working on this project, I've made a lot of special modifications to this project myself. The first thing that I did was change the background to a drum kit from the drumer's viewpoint so then the user feels like they are playing a virtual drumset. When the user presses one of the asdf keys, it pops up and changes color. Originally, it was a shade of yellow and the border was 0.4rem. I changed the border of the keys to 0.2rem, changed the border-radius to 50%, and added a box-shadow color for each individual key. Lastly, I integrated two drum-less tracks into the project, allowing users to play along with these songs. The titles and artists of these tracks are displayed beneath their respective audio tags, ensuring clear identification and ease of use.
+### My Enhancements:
+While the original project offered a basic keyboard interaction, I've made some modifications to create a more immersive experience:
 
-### This is what the webpage looks like when a key is not pressed:
+- **Visual Drum Kit:** I replaced the background with a drum kit image from a drummer's perspective, making it feel like you're sitting behind the kit yourself.
 
+- **Interactive Keys:** Instead of a simple color change, the key boxes now "pop up" and change color when pressed. I've also adjusted the border thickness, radius, and added individual box shadows for a more polished look.
+
+- **Backing Tracks:** To enhance the experience, I integrated two drum-less tracks, allowing users to play along. The titles and artists are displayed clearly to the right of each audio tag for easy identification.
+
+### Visual Comparison:
+- **Key Not Pressed:**
 ![Drum Kit1](/images/drum-kit1.png)
 
-### This is what the webpage looks like when a key is pressed:
-
+- **Key Pressed:**
 ![Drum Kit2](/images/drum-kit2.png)
