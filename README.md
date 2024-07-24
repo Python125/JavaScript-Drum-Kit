@@ -1,4 +1,6 @@
 ## Drum Kit Project: Building a Virtual Instrument
+![Screenshot](/images/webpage-screenshot.png)
+
 This project replicates a drum kit using HTML, CSS, and JavaScript, following the "JavaScript30" course by Wes Bos.
 
 ### To build it yourself:
@@ -17,7 +19,7 @@ While the original project offered a basic keyboard interaction, I've made some 
 
 ### Visual Comparison:
 - **Key Not Pressed:**
-![Drum Kit1](/images/webpage-screenshot.png)
+![Drum Kit1](/images/key-not-pressed.png)
 
 - **Key Pressed:**
 ![Drum Kit2](/images/key-pressed.png)
