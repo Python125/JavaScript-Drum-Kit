@@ -17,7 +17,7 @@ While the original project offered a basic keyboard interaction, I've made some 
 
 ### Visual Comparison:
 - **Key Not Pressed:**
-![Drum Kit1](/images/drum-kit1.png)
+![Drum Kit1](/images/webpage-screenshot.png)
 
 - **Key Pressed:**
-![Drum Kit2](/images/drum-kit2.png)
+![Drum Kit2](/images/key-pressed.png)
