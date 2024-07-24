@@ -20,7 +20,7 @@ While the original project offered a basic keyboard interaction, I've made some 
 ### Visual Comparison:
 - **Key Not Pressed:**
 
-![Drum Kit1](/images/key-not-pressed3.png)
+![Drum Kit1](/images/key-not-pressed.png)
 
 - **Key Pressed:**
 
