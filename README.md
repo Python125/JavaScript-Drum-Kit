@@ -1,7 +1,9 @@
+This project is a hands-on exploration of HTML, CSS, and JavaScript, inspired by Wes Bos' "JavaScript30" course. Building upon the foundation of the drum kit challenge, I've enhanced the original project by making significant modifications to the HTML, CSS, and JavaScript code. The goal was to create a more immersive and engaging drumming experience.
+
 ## Drum Kit Project: Building a Virtual Instrument
 ![Screenshot](/images/webpage-screenshot.png)
 
-This project replicates a drum kit using HTML, CSS, and JavaScript, following the "JavaScript30" course by Wes Bos.
+<!-- This project replicates a drum kit using HTML, CSS, and JavaScript, following the "JavaScript30" course by Wes Bos. -->
 
 ### To build it yourself:
 1. Create an account at https://wesbos.com/courses.
@@ -9,13 +11,13 @@ This project replicates a drum kit using HTML, CSS, and JavaScript, following th
 3. Follow along with the video tutorial.
 
 ### My Enhancements:
-While the original project offered a basic keyboard interaction, I've made some modifications to create a more immersive experience:
+My enhancements focus on creating a virtual drumming experience that feels more realistic and engaging. Here's a breakdown of the additions I made:
 
-- **Visual Drum Kit:** I replaced the background with a drum kit image from a drummer's perspective, making it feel like you're sitting behind the kit yourself.
+- **Visual Drum Kit:** I swapped the background for a drum kit image seen from a drummer's perspective, placing you right in the heart of the action.
 
-- **Interactive Keys:** Instead of a simple color change, the key boxes now "pop up" and change color when pressed. I've also adjusted the border thickness, radius, and added individual box shadows for a more polished look.
+- **Interactive Keys:** Hitting a key no longer just changes color; it "pops up" for a more dynamic effect. Additionally, I adjusted borders, rounded corners, and added individual box shadows for a polished look.
 
-- **Backing Tracks:** To enhance the experience, I integrated two drum-less tracks, allowing users to play along. The titles and artists are displayed clearly to the right of each audio tag for easy identification.
+- **Backing Tracks:** To jam along with, I integrated two drum-less tracks. Titles and artists are displayed clearly next to each audio tag for easy identification.
 
 ### Visual Comparison:
 - **Key Not Pressed:**
