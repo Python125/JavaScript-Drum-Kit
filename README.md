@@ -3,8 +3,6 @@ This project is a hands-on exploration of HTML, CSS, and JavaScript, inspired by
 ## Drum Kit Project: Building a Virtual Instrument
 ![Screenshot](/images/webpage-screenshot.png)
 
-<!-- This project replicates a drum kit using HTML, CSS, and JavaScript, following the "JavaScript30" course by Wes Bos. -->
-
 ### To build it yourself:
 1. Create an account at https://wesbos.com/courses.
 2. Search for "JavaScript30" and find the drum kit project.
