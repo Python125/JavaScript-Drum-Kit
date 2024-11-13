@@ -149,10 +149,7 @@ kbd {
   letter-spacing: 0.1rem;
 }
 
-@media only screen and (max-width: 1925px) {
-}
-
-@media only screen and (max-width: 1925px) {
+@media only screen and (max-width: 1920px) {
   h1 {
     margin: 0%;
     font-size: 30pt;
