@@ -1,5 +1,7 @@
 This project is a hands-on exploration of HTML, CSS, and JavaScript, inspired by Wes Bos' "JavaScript30" course. Building upon the foundation of the drum kit challenge, I've enhanced the original project by making significant modifications to the HTML, CSS, and JavaScript code. The goal was to create a more immersive and engaging drumming experience.
 
+Experience the features of this project directly in the browser by visiting the live demo [here](https://neon-sable-2eff3c.netlify.app/)
+
 ## Drum Kit Project: Building a Virtual Instrument
 ![Screenshot](/images/webpage-screenshot.png)
 
